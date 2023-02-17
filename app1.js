@@ -51,12 +51,12 @@ const me = {
     age : 30,
     tall : 180,
 };
-console.log(me)
-console.log(me.name)
-console.log(me["name"])
+console.log(me);
+console.log(me.name);
+console.log(me["name"]);
 
-me.age = 20
-console.log(me)
+me.age = 20;
+console.log(me);
 
-me.weight = 70
-console.log(me)
+me.weight = 70;
+console.log(me);
