@@ -68,10 +68,12 @@ else if(age < 18){
     console.log("You are too young.");
 }
 else if(18 <= age && age <= 50){ 
-    // and 연산자 : &&
-    // or 연산자 : ||
-    // equal : ==
-    // not : !=
+    // && : AND
+    // || : OR
+    // == : 두 피연산자의 자료형을 일치시킨 후 비교.
+    // != : 두 피연산자의 자료형을 일치시킨 후 비교.
+    // === : 자료형 변환 없이 두 피연산자가 같은지 판별한다.
+    // !== : 자료형 변환 없이 두 피연산자가 같지 않은지 판별.
     console.log("You can drink!");
 }
 else if(50 < age && age <= 80){
@@ -80,3 +82,27 @@ else if(50 < age && age <= 80){
 else if(age > 80){
     console.log("You can do whatever you want.");
 }
+
+console.log(1 === 1);
+// Expected output: true
+
+console.log('hello' === 'hello');
+// Expected output: true
+
+console.log('1' ===  1);
+// Expected output: false
+
+console.log(0 === false);
+// Expected output: false
+
+console.log(1 == 1);
+// Expected output: true
+
+console.log('hello' == 'hello');
+// Expected output: true
+
+console.log('1' ==  1);
+// Expected output: true
+
+console.log(0 == false);
+// Expected output: true
