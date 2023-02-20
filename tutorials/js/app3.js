@@ -29,4 +29,14 @@ function customClickEvent(){
     console.log("Clicked!!")
 }
 
+function handleMouseEnter(){
+    selfTestVar.innerText = "Mouse is here."
+}
+
+function handleMouseLeave(){
+    selfTestVar.innerText = "Mouse is leave."
+}
+
 selfTestVar.addEventListener("click", customClickEvent)
+selfTestVar.addEventListener("mouseenter", handleMouseEnter)
+selfTestVar.addEventListener("mouseleave", handleMouseLeave)
