@@ -22,10 +22,8 @@ function handleTitleClick(){
     }
 } 
 
-
 function handleTitleClick(){
     h1.classList.toggle("clicked");
 }
-
 
 h1.addEventListener("click", handleTitleClick);
